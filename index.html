@@ -8,20 +8,67 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
+    <script src="https://kit.fontawesome.com/a53a32e889.js" crossorigin="anonymous"></script>
+
+    <!-- <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-                        clifford: '#da373d',
+
                     }
                 }
             }
         }
-    </script>
+    </script> -->
 </head>
 
-<body>
+<body class="">
+    <!-- nav section  -->
+    <nav class="container mx-auto mb-4">
+        <div class="navbar">
+            <div class="navbar-start">
+                <a class="btn btn-ghost text-xl">Hokey <span class="text-red-600">'</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contuc us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+
+                <a class="btn bg-red-500 text-white">Get Tickets</a>
+            </div>
+        </div>
+    </nav>
+    <!-- carosel section -->
+    <header class="container mx-auto h-80">
+        <div class="carousel w-full ">
+            <div id="slide1" class="carousel-item relative w-full">
+                <img src="Images/1.png" class="w-full h-auto" />
+                <div class="absolute flex content-center justify-end   ">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+                <img src="Images/2.png" class="w-full h-auto" />
+                <div class="absolute flex  content- justify-end   ">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div>
+                <h1 class="bg-black-400 h-2">Meet All The Heros in The Fiel</h1>
+            </div>
+
+        </div>
+    </header>
+
 
 
 </body>
